@@ -1,14 +1,13 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main()
+int main(void)    
 {
     int N, X;
     int A;
-    
     scanf("%d %d", &N, &X);
-    for(int i = 0; i < 10; i++)
+    for(int i = 0; i < N; i++)
     {
-        scanf("%d ", &A);
+        scanf("%d", &A);
         if(A < X)
         {
             printf("%d", A);
